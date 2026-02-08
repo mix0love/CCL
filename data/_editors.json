@@ -15,8 +15,18 @@
         "link": ""
     },
     {
+        "role": "admin",
+        "name": "\u0431\u0443\u0431\u044b\u043b\u044f\u043a",
+        "link": ""
+    },
+    {
         "role": "trial",
         "name": "CHAI",
+        "link": ""
+    },
+    {
+        "role": "trial",
+        "name": "Pizda",
         "link": ""
     },
     {
