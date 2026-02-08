@@ -153,7 +153,7 @@ class ListManager(tk.Tk):
                 # Standard update flow
                 commands.append(["git", "add", "."])
                 commands.append(["git", "commit", "-m", f"Update site data {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}"])
-                commands.append(["git", "push", "-u", "origin", "main"])
+                commands.append(["git", "push", "-f", "-u", "origin", "main"])
                 
                 log = ""
                 for cmd in commands:
